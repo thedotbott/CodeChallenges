@@ -16,3 +16,16 @@ function findMultiples(integer, limit){
     }
     return arr
 }
+
+
+// 8kyu Kata--Removing Elements
+
+// Remove every second element from the array, always keep the first element.
+
+
+
+function removeEveryOther(arr){
+    return arr.filter(function(el, i){
+        return(i% 2 === 0) 
+    })
+}
